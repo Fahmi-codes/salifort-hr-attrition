@@ -1,54 +1,30 @@
-🚗 Salifort Motors HR Attrition Analysis
-📌 Project Overview
+# Salifort Motors HR Attrition Project
 
-This project analyzes employee data from Salifort Motors to understand the key factors influencing employee attrition (employees leaving the company). Using exploratory data analysis (EDA) and multiple machine learning models, the goal is to identify patterns and build predictive models that can help HR make data-driven decisions.
+This project focuses on analyzing employee data to understand why employees leave a company. 
+I used the HR capstone dataset and worked through the full process from data analysis to building machine learning models.
 
-🎯 Objectives
-Analyze employee behavior and trends
-Identify key factors contributing to attrition
-Build predictive models to classify employee churn
-Compare model performances and select the best one
-📊 Dataset
-Name: HR Capstone Dataset
-Description: Contains employee-related information such as:
-Age
-Department
-Salary
-Job satisfaction
-Work hours
-Promotion history
-Attrition status
-🛠️ Tools & Technologies
-Python
-Pandas
-NumPy
-Matplotlib & Seaborn
-Scikit-learn
-🔍 Project Workflow
-Data Cleaning
-Handling missing values
-Removing duplicates
-Data type corrections
-Exploratory Data Analysis (EDA)
-Distribution analysis
-Correlation analysis
-Visualization of key patterns
-Feature Engineering
-Encoding categorical variables
-Feature selection
-Model Building
-Logistic Regression
-Decision Tree
-Random Forest
-Other classification models
-Model Evaluation
-Accuracy
-Precision & Recall
-Confusion Matrix
-📈 Key Insights
-Certain departments show higher attrition rates
-Workload and satisfaction strongly impact employee decisions
-Promotion frequency is linked to retention
-🚀 Results
+## What I did
+- Cleaned and prepared the data
+- Performed exploratory data analysis (EDA)
+- Visualized important patterns and trends
+- Built multiple machine learning models
+- Compared model performance
 
-The project successfully builds models that can predict employee attrition with strong performance, helping organizations take proactive actions to retain employees.
+## Tools used
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Scikit-learn
+
+## About
+This notebook contains the full workflow from start to finish. 
+The goal is to understand employee behavior and predict attrition using data.
+
+## How to run
+pip install -r requirements.txt
+
+Then open the notebook and run all cells.
+
+## Note
+This project is mainly for practicing real-world data analysis and machine learning.
